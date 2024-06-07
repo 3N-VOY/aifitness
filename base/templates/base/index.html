@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise Analyzer</title>
+  </head>
+  <body>
+    <h1>Select Exercise</h1>
+    <div>
+      <h2>Start Live Feed</h2>
+      <form method="get" action="{% url 'video_feed' %}">
+        <label for="live-exercise">Choose an exercise:</label>
+        <select id="live-exercise" name="exercise">
+          <option value="bicep_curl">Bicep Curl</option>
+          <option value="squat">Squat</option>
+          <option value="deadlift">Deadlift</option>
+          <option value="pushup">Push-Up</option>
+        </select>
+        <input type="submit" value="Start Live Feed" />
+      </form>
+    </div>
+
+    <div>
+      <h2>Upload a Video</h2>
+      <form
+        method="post"
+        action="{% url 'upload_video' %}"
+        enctype="multipart/form-data"
+      >
+        {% csrf_token %}
+        <label for="upload-exercise">Choose an exercise:</label>
+        <select id="upload-exercise" name="exercise">
+          <option value="bicep_curl">Bicep Curl</option>
+          <option value="squat">Squat</option>
+          <option value="deadlift">Deadlift</option>
+          <option value="pushup">Push-Up</option>
+        </select>
+        <input type="file" name="video-file" accept="video/*" />
+        <input type="submit" value="Upload" />
+      </form>
+    </div>
+  </body>
+</html>
