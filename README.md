@@ -83,6 +83,9 @@ The application is built on Django and uses OpenCV and MediaPipe for real-time p
 ## Media
 The media/ folder contains sample videos demonstrating supported exercises, which can be used for testing or as tutorials.
 
+## Demo: Bicep Curl AI Analysis
+[▶️ Watch Bicep Curl Demo](media/BICEP%20CURL.mp4)
+
 ## Extending the Project
 Add new exercises by updating the pose estimation logic and retraining the AI model with new data.
 Integrate additional feedback mechanisms (e.g., detailed form correction tips).
