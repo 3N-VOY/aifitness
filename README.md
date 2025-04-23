@@ -23,7 +23,7 @@ As part of the ACEin “Compass Cycle” business acceleration program, our team
 Our team was awarded a certificate of completion for the ACEin “Compass Cycle” program, recognizing our successful participation and the innovative potential 
 of our AI Fitness Trainer application. The certificate may be included in this repository for reference.
 
-
+![ACEin Certificate](cert/certificate.jpg)
 ## Features
 
 - Real-time pose detection using webcam video input
