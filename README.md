@@ -92,5 +92,5 @@ Integrate additional feedback mechanisms (e.g., detailed form correction tips).
 Deploy to a cloud platform for public access.
 
 ## Author
-Developed by 3N-VOY (Alexander), as part of a startup team in the ACEin program at the Athens University of Economics and Business.
+Developed by 3N-VOY (Alexander Xagoraris), as part of a startup team in the ACEin program at the Athens University of Economics and Business.
 
